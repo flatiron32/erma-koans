@@ -6,9 +6,9 @@ ERMA Koans intend to help your learn how to best use [ERMA](https://github.com/e
 Running Instructions:
 ---------------------
 * Get the Koans. Either:
-** Download and unarchive the contents of the most recent java-koans in development from:
+   * Download and unarchive the contents of the most recent java-koans in development from:
 https://github.com/matyb/erma-koans/archive/master.zip
-** or, clone the repo with :
+   * or, clone the repo with :
 ```git clone https://github.com/flatiron32/erma-koans.git```
 * Open a terminal and cd to the directory you unarchived or cloned:
 ```cd <the directory you just unarchived or cloned>```
