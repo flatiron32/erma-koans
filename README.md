@@ -1,7 +1,7 @@
 ERMA Koans
 ==========
 
-ERMA Koans intend to help your learn ho to best use [ERMA](https://github.com/erma/erma) to get data out of your application efficiently.
+ERMA Koans intend to help your learn how to best use [ERMA](https://github.com/erma/erma) to get data out of your application efficiently.
 
 Running Instructions:
 ---------------------
@@ -9,7 +9,7 @@ Running Instructions:
 ** Download and unarchive the contents of the most recent java-koans in development from:
 https://github.com/matyb/erma-koans/archive/master.zip
 ** or, clone the repo with :
-git clone https://github.com/flatiron32/erma-koans.git
+```git clone https://github.com/flatiron32/erma-koans.git```
 * Open a terminal and cd to the directory you unarchived or cloned:
 ```cd <the directory you just unarchived or cloned>```
 * Within it you'll find:
