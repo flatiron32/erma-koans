@@ -1,8 +1,9 @@
 package monitors;
 
-import static com.sandwich.koan.constant.KoanConstants.__;
 import static com.sandwich.util.Assert.assertEquals;
+import static com.sandwich.util.Assert.assertTrue;
 import static com.sandwich.util.Assert.fail;
+import monitors.processor.KoanProcessor;
 
 import com.orbitz.monitoring.api.Attribute;
 import com.orbitz.monitoring.api.Monitor;
@@ -17,22 +18,24 @@ public class AboutEvents {
         //Monitors are maps of attributes to be processed.
         //The minimum data that all monitors have is a name. The Attribute class defines many common
         //keys to the monitors attribute map.
-        assertEquals(eventMonitor.get(Attribute.NAME), __);
+        assertEquals(eventMonitor.get(Attribute.NAME), "NewEvent");
     }
     
-    @Koan
+//    @Koan
     public void eventsHaveDefaultProperties() {
         fail("Define this koan");
     }
     
-    @Koan
+//    @Koan
     public void eventsCanHaveCustomProperties() {
         fail("Define this koan");
     }
 
     @Koan
     public void eventsMustBeFired(){
-        fail("delete this line");
+        EventMonitor likeAGun = new EventMonitor("LikeAGun");
+        likeAGun.fire();
+        assertTrue(KoanProcessor.hasProcessed(likeAGun));
     }
     
 }
